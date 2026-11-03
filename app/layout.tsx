@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Second Memory — For relationships that matter.",
-  description: "Second Memory is your personal relationship intelligence. Remember the details, stay connected, and build deeper relationships.",
+  title: "Second Memory — They'd love to hear from you.",
+  description: "Second Memory remembers what's going on in the lives of your family and closest friends, and tells you when it's a good moment to reach out.",
 };
 
 export default function RootLayout({

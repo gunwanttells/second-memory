@@ -116,7 +116,7 @@ function BrowserMockup() {
           {/* Breadcrumb */}
           <p className="text-[10px] mb-4" style={{ color: "rgba(255,255,255,0.22)" }}>
             People ›{" "}
-            <span style={{ color: "rgba(255,255,255,0.5)" }}>Erol Karkan</span>
+            <span style={{ color: "rgba(255,255,255,0.5)" }}>Priya Sharma</span>
           </p>
 
           {/* Person header */}
@@ -125,18 +125,18 @@ function BrowserMockup() {
               className="w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0"
               style={{ backgroundColor: "#2A9D8F", fontSize: "13px", color: "#fff" }}
             >
-              EK
+              PS
             </div>
             <div className="min-w-0 flex-1">
               <p className="text-white font-semibold text-sm leading-tight">
-                Erol Karkan
+                Priya Sharma
               </p>
               <p className="text-[11px] mt-0.5" style={{ color: "rgba(255,255,255,0.4)" }}>
-                Head of Partnerships · Meridian Capital
+                Best friend · Since college
               </p>
               <div className="flex gap-1.5 mt-2">
-                <Chip label="Warm Contact" accent />
-                <Chip label="Strategic" />
+                <Chip label="Inner circle" accent />
+                <Chip label="Far away" />
               </div>
             </div>
             <span
@@ -146,7 +146,7 @@ function BrowserMockup() {
                 color: "rgba(255,255,255,0.3)",
               }}
             >
-              3d ago
+              3w ago
             </span>
           </div>
 
@@ -156,9 +156,9 @@ function BrowserMockup() {
             style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}
           >
             <div>
-              <p className="text-white text-sm font-semibold leading-tight">14</p>
+              <p className="text-white text-sm font-semibold leading-tight">11 yrs</p>
               <p className="text-[9px] mt-0.5" style={{ color: "rgba(255,255,255,0.25)" }}>
-                total meetings
+                friends
               </p>
             </div>
             <div
@@ -167,7 +167,7 @@ function BrowserMockup() {
                 paddingLeft: "20px",
               }}
             >
-              <p className="text-white text-sm font-semibold leading-tight">Coffee</p>
+              <p className="text-white text-sm font-semibold leading-tight">Call</p>
               <p className="text-[9px] mt-0.5" style={{ color: "rgba(255,255,255,0.25)" }}>
                 last interaction
               </p>
@@ -178,9 +178,9 @@ function BrowserMockup() {
                 paddingLeft: "20px",
               }}
             >
-              <p className="text-white text-sm font-semibold leading-tight">SF</p>
+              <p className="text-white text-sm font-semibold leading-tight">Toronto</p>
               <p className="text-[9px] mt-0.5" style={{ color: "rgba(255,255,255,0.25)" }}>
-                last location
+                lives in
               </p>
             </div>
           </div>
@@ -199,11 +199,11 @@ function BrowserMockup() {
                 className="text-[9px] font-semibold tracking-widest"
                 style={{ color: "#2A9D8F" }}
               >
-                RECOMMENDED OPENER
+                A GOOD MOMENT TO REACH OUT
               </p>
             </div>
             <p className="text-[11px] leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-              Ask about the Southeast Asia LP network he&apos;s been building — he mentioned a major close coming up and seemed genuinely energised about it.
+              Her mum had surgery last Thursday. Priya would be genuinely glad to hear from you — ask how Mum is recovering.
             </p>
           </div>
 
@@ -216,10 +216,10 @@ function BrowserMockup() {
               MEMORIES
             </p>
             <div className="flex flex-wrap gap-1.5">
-              <Chip label="LP relationships" />
-              <Chip label="Southeast Asia" />
-              <Chip label="Deal sourcing" />
-              <Chip label="VC strategy" />
+              <Chip label="Mum's surgery" />
+              <Chip label="Loves pottery" />
+              <Chip label="New flat" />
+              <Chip label="Birthday 14 Mar" />
               <Chip label="+ 6 more" />
             </div>
           </div>
@@ -233,9 +233,9 @@ function BrowserMockup() {
 
 const features = [
   {
-    title: "Voice-First Capture",
+    title: "Just say it out loud",
     description:
-      "Record a 60-second voice note after any meeting and let AI do the rest. It automatically extracts names, topics discussed, action items, and follow-ups — so you can stay fully present in the moment instead of furiously scribbling notes while someone is still talking.",
+      "After a call or a dinner, talk for 30 seconds. Second Memory pulls out what mattered — her mum's surgery, his new job, the trip they're planning — and files it under the right person. No typing, no forms.",
     icon: (
       <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth="1.8">
         <path strokeLinecap="round" strokeLinejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
@@ -243,9 +243,9 @@ const features = [
     ),
   },
   {
-    title: "Pre-Meeting Briefing",
+    title: "Know what to say",
     description:
-      "Before every meeting, get a glanceable card with everything that matters: full relationship history, topics from past conversations, shared context, and an AI-generated conversation opener tailored to exactly where things left off. Walk in feeling prepared, not panicked.",
+      "Before you call someone, see a short card: what's been going on in their life, what you talked about last, and a warm way to start. You never have to wonder how to pick the conversation back up.",
     icon: (
       <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth="1.8">
         <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -253,9 +253,9 @@ const features = [
     ),
   },
   {
-    title: "Morning Brief",
+    title: "The right moment, not a reminder",
     description:
-      "Start every day knowing exactly who you're meeting, what matters most to each person, any upcoming birthdays or milestones worth acknowledging, and a gentle nudge toward the people you're slowly losing touch with — before the distance becomes permanent.",
+      "A friend is going through something hard. A birthday is close. It's been a while and they'd love to hear from you. We tell you when reaching out would land best, and always as a reason to connect, never as guilt.",
     icon: (
       <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth="1.8">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 7a5 5 0 100 10A5 5 0 0012 7z" />
@@ -263,12 +263,12 @@ const features = [
     ),
   },
   {
-    title: "Share Relationship Context",
+    title: "Built for your inner circle",
     description:
-      "Briefing your team on a key contact? Share a formatted person card via email or WhatsApp — with full context, talking points, and a recommended opener. Your team shows up prepared, every time.",
+      "Not a contact list of hundreds. Second Memory looks after the handful of people who matter most — family and close friends — so you can be the one who always remembers, and they feel it.",
     icon: (
       <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth="1.8">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
   },
@@ -277,19 +277,19 @@ const features = [
 const faqs = [
   {
     q: "Is my data private?",
-    a: "Absolutely. We never sell or share your data with anyone, ever. Everything is stored with end-to-end encryption at rest and in transit. You can export or permanently delete all your data at any time — no questions asked, no hoops to jump through.",
+    a: "Yes. Your notes about the people you love are yours. We will never sell your data or show you ads, and you'll be able to export or delete everything at any time. You pay us, so we work for you.",
   },
   {
-    q: "What languages do you support?",
-    a: "Second Memory is built for the way multilingual people actually speak. We currently support English, Hindi-English code-switching, Arabic-English code-switching, and Mandarin-English code-switching — with more languages actively in development.",
+    q: "Will it make me feel guilty?",
+    a: "No, and that's on purpose. Most people don't drift from friends because they don't care, but because they assume a message would be an interruption. Second Memory gives you the reason and the permission to reach out, never a count of days since you last did.",
   },
   {
     q: "How is this different from a CRM?",
-    a: "CRMs manage deals and pipelines. Second Memory remembers people. It's not built for tracking revenue or moving contacts through stages — it's built so the people in your life feel remembered, understood, and valued every single time you show up.",
+    a: "CRMs manage deals and pipelines. Second Memory is for the handful of people who matter most to you. It remembers the details of their lives so you can show up for them, and it works best when you close it and go call someone.",
   },
   {
     q: "Is it free?",
-    a: "Early access is completely free for our founding 100 members. After launch, paid plans start at $29/month. Founding members lock in their rate for life — no surprise price increases, no bait-and-switch.",
+    a: "Joining the waitlist is free and needs no card. Second Memory will be a paid app, because we answer to you and not to advertisers. Waitlist members will hear the price before they pay anything.",
   },
 ];
 
@@ -307,10 +307,10 @@ export default function Home() {
           Second<span style={{ color: "#2A9D8F" }}>Memory</span>
         </span>
         <a
-          href="#"
+          href="#signup"
           className="text-white/60 hover:text-white text-sm font-medium transition-colors duration-200"
         >
-          Sign In
+          Join the waitlist
         </a>
       </nav>
 
@@ -343,17 +343,17 @@ export default function Home() {
               className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase border rounded-full px-4 py-1.5 mb-8"
             >
               <span style={{ backgroundColor: "#2A9D8F" }} className="w-1.5 h-1.5 rounded-full" />
-              Personal Relationship Intelligence
+              For family &amp; close friends
             </div>
 
             <h1 className="text-5xl sm:text-6xl xl:text-7xl font-bold text-white leading-[1.05] tracking-tight mb-6">
-              Second
+              They&apos;d love
               <br />
-              <span style={{ color: "#2A9D8F" }}>Memory</span>
+              to <span style={{ color: "#2A9D8F" }}>hear from you.</span>
             </h1>
 
             <p className="text-xl sm:text-2xl text-white/50 font-light mb-10 max-w-lg leading-relaxed">
-              For people who never want to forget what matters.
+              Second Memory remembers what&apos;s going on in the lives of the people you love, and tells you when it&apos;s a good moment to reach out.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-center lg:items-start">
@@ -362,7 +362,7 @@ export default function Home() {
                 style={{ backgroundColor: "#2A9D8F" }}
                 className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full text-white font-semibold text-base hover:brightness-110 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
               >
-                Get Started — it&apos;s free
+                Join the waitlist
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
@@ -376,7 +376,7 @@ export default function Home() {
             </div>
 
             <p className="mt-8 text-white/25 text-xs tracking-wide">
-              No credit card required &nbsp;·&nbsp; Setup in 2 minutes
+              No credit card required &nbsp;·&nbsp; Your notes stay yours
             </p>
           </div>
 
@@ -395,11 +395,11 @@ export default function Home() {
               style={{ color: "#1B3A5C" }}
               className="text-4xl font-bold mb-4 tracking-tight"
             >
-              Your relationships deserve better
+              Stay close to the people who matter
             </h2>
             <p className="text-gray-400 text-lg max-w-lg mx-auto leading-relaxed">
-              Most people rely on memory alone. Second Memory gives you the
-              context to always show up thoughtfully.
+              Friendships rarely end. They fade, one busy week at a time.
+              Second Memory helps you keep them warm.
             </p>
           </div>
 
@@ -481,17 +481,17 @@ export default function Home() {
             className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase border rounded-full px-4 py-1.5 mb-7"
           >
             <span style={{ backgroundColor: "#2A9D8F" }} className="w-1.5 h-1.5 rounded-full" />
-            Founding 100
+            Early access
           </div>
           <h2 className="text-4xl font-bold text-white mb-3 tracking-tight">
-            Join the founding 100
+            Be one of the first
           </h2>
           <p className="text-lg mb-10" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Get early access to Second Memory
+            Join the waitlist and we&apos;ll email you when Second Memory is ready
           </p>
           <EmailSignup />
           <p className="mt-7 text-xs" style={{ color: "rgba(255,255,255,0.18)" }}>
-            Founding members lock in their rate for life &nbsp;·&nbsp; No credit card required
+            No spam, no ads, no selling your data &nbsp;·&nbsp; No credit card required
           </p>
         </div>
       </section>
